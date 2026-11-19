@@ -1,0 +1,6 @@
+Strategy,TotalRequests,SeatsCount,Threads,TotalTimeMs,AvgTimeNs
+SynchronizedMethod,10000,50,16,51.551,5155.1
+SynchronizedBlock,10000,50,16,17.066,1706.6
+AtomicBooleanCAS,10000,50,16,15.167,1516.7
+ReentrantLock,10000,50,16,21.082,2108.2
+ConcurrentHashMap,10000,50,16,63.951,6395.1
