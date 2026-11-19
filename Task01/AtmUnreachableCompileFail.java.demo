@@ -1,0 +1,19 @@
+package Task01;
+
+public class AtmUnreachableCompileFail {
+    public static void main(String[] args) {
+        try {
+            double balance = 100.0;
+            double amount = 500.0;
+            if (amount > balance) {
+                throw new InsufficientFundsException("Overdraft", balance, amount);
+            }
+        } catch (Exception e) {
+            // Broader catch placed first
+            System.out.println("Generic catch: " + e.getMessage());
+        } catch (InsufficientFundsException e) {
+            // Narrower catch placed second - unreachable!
+            System.out.println("Specific catch: " + e.getMessage());
+        }
+    }
+}
