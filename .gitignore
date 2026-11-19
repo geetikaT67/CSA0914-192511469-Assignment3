@@ -17,3 +17,6 @@ TestData/score_files/
 TestData/stores_valid/
 TestData/stores_fail/
 TestData/*_summary.csv
+
+# Matplotlib font cache
+ExperimentalData/fontlist*.json
