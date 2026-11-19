@@ -1,0 +1,3 @@
+Version,TotalFiles,FailingFileIndex,Status,OpenHandlesRemaining,TimeMs
+ManualClose,10,4,FAILED,1,16.357
+TryWithResources,10,4,FAILED,0,18.870
