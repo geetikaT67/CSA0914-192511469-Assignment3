@@ -1,0 +1,19 @@
+# Compiled Java bytecode
+bin/
+*.class
+
+# IDE and Editor artifacts
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Large generated test batch (generated via Task07.DataGenerator on demand)
+TestData/score_files/
+TestData/stores_valid/
+TestData/stores_fail/
+TestData/*_summary.csv
