@@ -1,0 +1,5 @@
+ThreadPoolSize,TotalFiles,ProcessedValid,Passed,Failed,Corrupt,Missing,UnhandledFailures,ExecutionTimeMs,ThroughputFilesPerSec
+1,10000,9600,9286,314,250,150,0,22699,440.5
+2,10000,9600,9286,314,250,150,0,9788,1021.7
+4,10000,9600,9286,314,250,150,0,7832,1276.8
+8,10000,9600,9286,314,250,150,0,6701,1492.3
