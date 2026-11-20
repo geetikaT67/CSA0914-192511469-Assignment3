@@ -2,6 +2,10 @@
 bin/
 *.class
 
+# Python cache
+__pycache__/
+*.pyc
+
 # IDE and Editor artifacts
 .idea/
 .vscode/
